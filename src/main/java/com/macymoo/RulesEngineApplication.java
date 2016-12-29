@@ -14,7 +14,7 @@ public class RulesEngineApplication {
 		SpringApplication.run(RulesEngineApplication.class, args);
 	}
 
-    @Value("${rules-engine.version}")
+    @Value("${rulesEngineVersion}")
     private String rulesEngineVersion;
 
 
