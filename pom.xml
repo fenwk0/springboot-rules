@@ -85,6 +85,12 @@
 			<artifactId>drools-compiler</artifactId>
 			<version>6.5.0.Final</version>
 		</dependency>
+        <!-- https://mvnrepository.com/artifact/org.drools/drools-decisiontables -->
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-decisiontables</artifactId>
+            <version>6.5.0.Final</version>
+        </dependency>
 
 	</dependencies>
 
