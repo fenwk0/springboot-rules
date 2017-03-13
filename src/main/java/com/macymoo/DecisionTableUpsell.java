@@ -38,10 +38,6 @@ public class DecisionTableUpsell {
             customer.addProducts(Product.CHECKING_ACCOUNT);
             knowledgeSession.insert(customer);
             knowledgeSession.fireAllRules();
-            System.out.println(customer);
-            for (Product product : customer.getRecommended()) {
-                System.out.println("Recommended Product ===> " + product);
-            }
         } catch (Throwable t) {
             t.printStackTrace();
 //        } finally {

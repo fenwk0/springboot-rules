@@ -72,13 +72,20 @@ public class Customer {
 	public String getName() {
 		return name;
 	}
-	
-	@Override
-	public String toString() {
-		return name + " " + combinedBalance + " " + profile; 
-	}
 
-	public Set<Product> getRecommended() {
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "profile=" + profile +
+                ", products=" + products +
+                ", recommended=" + recommended +
+                ", combinedBalance=" + combinedBalance +
+                ", customerSince=" + customerSince +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
+    public Set<Product> getRecommended() {
 		return recommended;
 	}
 
@@ -89,5 +96,6 @@ public class Customer {
 	public void addRecommendedProducts(Product... products) {
         this.recommended.addAll(Arrays.asList(products));
 	}
-	
+
+
 }
