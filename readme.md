@@ -14,6 +14,7 @@ http://localhost:8080/
 http://localhost:8080/version
 
 #Use this command to select Java version on a Raspberry Pi
+
 sudo update-alternatives --config java
 
 
