@@ -89,7 +89,7 @@
         <dependency>
             <groupId>org.drools</groupId>
             <artifactId>drools-decisiontables</artifactId>
-            <version>6.5.0.Final</version>
+            <version>10.1.0</version>
         </dependency>
 
 	</dependencies>
